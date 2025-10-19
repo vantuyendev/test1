@@ -11,6 +11,7 @@ body {
     color: #2c2c2c;
     background: linear-gradient(135deg, #CC0000 0%, #3B4CCA 50%, #FFDE00 100%);
     min-height: 100vh;
+    background-attachment: fixed;
 }
 
 /* ===== SKIP TO MAIN CONTENT LINK ===== */
