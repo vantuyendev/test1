@@ -436,7 +436,8 @@ footer p {
 }
 
 /* Pokedex main container - override default body styles for pokedex page */
-.pokedex-main {
+.pokedex-main,
+.pokedex-page {
   max-width: 100%;
   margin: 0 auto;
   padding: 20px 1rem;

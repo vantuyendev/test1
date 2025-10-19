@@ -18,8 +18,23 @@
   </head>
 
   <body>
-    
+    <!-- Skip to Main Content Link (visible only on focus) -->
+    <a href="#main" class="skip-link">Skip to Main Content</a>
 
+    <header>
+        <h1>Interactive Pokedex</h1>
+        
+        <!-- Navigation with Flexbox -->
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Legendaries</a></li>
+                <li><a href="pokedex.html" class="active">Pokedex</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main" class="pokedex-page">
   
     <div class="logo">
       <img
@@ -202,6 +217,12 @@
         </div>
       </div>
     </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Legendary Pokemon Index. Fan Site - Not affiliated with Nintendo, Game Freak, or The Pokemon Company.</p>
+    </footer>
+
     <script src="main.js"></script>
   </body>
 </html>
