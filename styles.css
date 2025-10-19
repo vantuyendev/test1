@@ -166,14 +166,21 @@ main {
 .gallery-item img,
 .about-image img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     border: 4px solid #CC0000;
-    padding: 4px;
+    padding: 0;
     border-radius: 12px;
     background: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+/* Gallery images - square full art */
+.gallery-item img {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Image Hover Effect */
@@ -221,6 +228,15 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: 2px solid rgba(59, 76, 202, 0.2);
     text-align: center;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 8px;
 }
 
 .gallery-item h3 {
@@ -246,12 +262,12 @@ main {
 /* ===== NTH-CHILD SELECTOR ===== */
 /* Requirement: Implement nth-child selector */
 .gallery-item:nth-child(odd) img {
-    border-radius: 50%;
+    border-radius: 8px;
     border-color: #CC0000;
 }
 
 .gallery-item:nth-child(even) img {
-    border-radius: 12px;
+    border-radius: 8px;
     border-color: #3B4CCA;
 }
 
